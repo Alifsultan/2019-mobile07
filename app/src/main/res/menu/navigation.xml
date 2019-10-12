@@ -2,10 +2,8 @@
     <item android:id="@+id/action_food"
         android:title="Makanan"
         android:icon="@drawable/ic_food" />
-    <item android:id="@+id/action_movie"
-        android:title="Movie"
-        android:icon="@drawable/ic_movie" />
-    <item android:id="@+id/action_discount"
-        android:title="Discount"
-        android:icon="@drawable/ic_discount" />
+    <item
+        android:id="@+id/action_movie"
+        android:icon="@drawable/coffe"
+        android:title="Minuman" />
 </menu>

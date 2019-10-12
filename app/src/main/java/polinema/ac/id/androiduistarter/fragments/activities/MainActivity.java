@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import polinema.ac.id.androiduistarter.R;
-import polinema.ac.id.androiduistarter.fragments.fragments.DiscountFragment;
 import polinema.ac.id.androiduistarter.fragments.fragments.FoodFragment;
 import polinema.ac.id.androiduistarter.fragments.fragments.MovieFragment;
 
@@ -45,9 +44,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 break;
             case R.id.action_movie:
                 fragment = new MovieFragment();
-                break;
-            case R.id.action_discount:
-                fragment = new DiscountFragment();
                 break;
         }
         return loadFragment(fragment);
